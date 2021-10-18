@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    align-items: center;
+    text-align: center;
+    background-image: url("https://arquitecturaviva.com/assets/uploads/obras/38400/av_medium__av_87996.jpeg?h=9a6bb430");
+    animation: fadeIn 10s forwards;
+}
+.video {
+border: darkred solid 2px;
+border-radius: 10px;
+margin: 10px 12px;
+}
+.container {
+margin-top: 15px;    
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+} 
